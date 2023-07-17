@@ -3,13 +3,13 @@
 criar ambiente de desenvolvimento
 
 ``` python
-    python -m venv venv
+    python -m venv .venv
 ```
 
 ativar ambiente no windows
 
 ``` shell
-    .\venv\Scripts\Activate.ps1
+    .\.venv\Scripts\Activate.ps1
 ```
 
 baixar dependências do projeto

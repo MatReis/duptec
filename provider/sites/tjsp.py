@@ -7,6 +7,7 @@ from selenium.webdriver.edge.options import Options
 
 class TJSP:
     def realiza_consulta(self, filtro, documento):
+        exec(open('.env').read())
         service = Service(executable_path=os.getenv('EXECUTAVEL')+"msedgedriver.exe")
         options = Options()
         options.add_argument("-headless")
