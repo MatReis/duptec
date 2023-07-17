@@ -1,0 +1,13 @@
+Resumo
+
+Na atividade, utilizei de boas praticas solid, separando algumas responsabilidades,
+separei a parte de banco de dados, utilizando o orm SQLalchemy estruturando os modelos 
+de dados, implementei o ambiente virtual e adicionei variáveis de ambiente para que
+fique mais fácil a configuração, retirei com repetição de código, utilizei alguns
+conceitos de boas praticas do PEP8 para facilitar a leitura e entendimento do código.
+
+Na parte de modularizar a consulta em varias plataforma, utilizei do Design Partner
+de Strategy, por conta que ele desacopla a responsabilidade de consulta do cliente,
+assim facilitando a implementação de outros provedores, sem precisar alterar outras
+funções uma vez que a responsabilidade da resposta é do provedor, o cliente so consome
+os dados.
